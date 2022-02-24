@@ -1,0 +1,233 @@
+body {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: #0D192C;
+}
+
+/* Outer layer Div for the Rectangle*/
+.container {
+  position: absolute;
+  width: 350px;
+  height: 596px;
+  left: 780px;
+  top: 172px;
+}
+
+/* div CSS styling for box presenting everything */
+.Rectangle {
+  position: absolute;
+  background-color: #15263F;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.0952917);
+  width: 350px;
+  height: 596px;
+  border-radius: 15px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+/* CSS styling for heading*/
+.hedit {
+  position: absolute;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27.72px;
+  color: #FFFFFF;
+  left: 6.86%;
+  right: 6.86%;
+  top: 58.72%;
+  bottom: 36.58%;
+}
+
+/*paragraph class css hover state */
+.hedit:hover {
+  color: #00FFF8;
+  cursor: pointer;
+}
+
+/* CSS styling for paragraph edit*/
+.pedit {
+  position: absolute;
+  height: 52px;
+   left: 6.86%;
+   right: 6.86%;
+   font-family: Outfit;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 26px;
+   top: calc(50% - 52px/2 + 122px);
+   color: #8BACD9;
+}
+
+/* CSS styling for Equilibrium image*/
+.eq {
+  width: 302px;
+  height: 302px;
+  position: absolute;
+  border-radius: 8px;
+  left: 6.86%;
+  right: 6.86%;
+  top: 4.03%;
+  bottom: 45.3%
+}
+
+ .eq:hover:{
+   cursor: pointer;
+ }
+
+.box{
+  position: absolute;
+  left: 6.86%;
+  right: 6.86%;
+  top: 4.03%;
+  bottom: 45.3%;
+
+  /*cyan hover*/
+  background:  #00FFF8;
+  opacity: 0;
+  border-radius: 8px;
+}
+
+.box:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.eye {
+  cursor: pointer;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 125px;
+  top: 130px;
+  opacity: 0;
+  }
+
+  .eye:hover {
+    opacity: 1;
+    color: #FFFFFF;
+  }
+
+/*Rectangle line class css */
+.line {
+  position: absolute;
+  width: 302px;
+  height: 1px;
+  left: 6.86%;
+  right: 6.86%;
+  top: 86.24%;
+  bottom: 13.59%;
+  background: #2E405A;
+}
+
+/*image class css */
+.avatar {
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  left: 6.86%;
+  right: 83.7%;
+  top: 89.89%;
+  bottom: 5.37%;
+}
+
+/*paragraph class css */
+.para {
+  position: absolute;
+  height: 20px;
+  left: 20.51%;
+  right: 55.25%;
+  top: 87.89%;
+
+  /*Font family */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8BACD9;
+}
+
+/*paragraph class css */
+.Name {
+  position: absolute;
+  height: 20px;
+  left: 47.51%;
+  right: 1.1%;
+  top: 87.89%;
+
+  /*Font family */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+/*paragraph class css hover state */
+.Name:hover {
+  color: #00FFF8;
+  cursor: pointer;
+}
+
+/*image class css */
+.coin {
+  position: absolute;
+  height: 18px;
+  width: 11px;
+  left: 6%;
+  right: 88.23%;
+  top: 79.88%;
+  bottom: 32.84%;
+}
+
+/*paragraph class css */
+.ETH {
+  position: absolute;
+  height: 20px;
+  left: 10.7%;
+  right: 1.07%;
+  top: 76.88%;
+
+  /*Font family */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00fff8;
+}
+
+/*image class css */
+.timeLeft {
+  position: absolute;
+  left: 67.99%;
+  right: 27.58%;
+  top: 79.88%;
+  bottom: 13.3%;
+}
+
+/*paragraph class css */
+.hurry {
+  position: absolute;
+  height: 20px;
+  left: 75.42%;
+  right: 0.33%;
+  top: 76.88%;
+
+  /*Font family */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8BACD9;
+}
